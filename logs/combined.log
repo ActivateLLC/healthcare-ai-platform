@@ -1,0 +1,423 @@
+{"timestamp":"2025-05-30 01:30:11.523","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.525","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.526","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.526","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.526","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.534","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.535","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.536","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.536","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:30:11.599","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.401","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.403","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.403","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.403","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.403","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.411","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.411","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.413","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.413","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:46:28.489","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.854","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.856","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.857","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.857","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.857","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.864","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.864","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.867","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.867","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:08.920","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.899","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.901","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.901","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.901","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.901","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.908","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.908","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.910","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.910","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:47:47.984","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.391","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.393","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.393","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.393","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.393","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.400","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.400","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.402","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.402","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:48:54.461","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.338","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.340","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.340","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.341","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.341","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.347","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.347","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.349","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.349","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:12.406","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.766","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.768","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.769","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.769","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.769","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.775","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.776","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.777","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.777","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:23.834","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.183","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.184","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.185","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.185","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.185","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.192","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.193","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.194","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.195","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 01:49:36.281","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.671","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.672","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.673","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.673","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.673","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.680","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.680","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.682","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.682","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:18:50.760","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.351","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.353","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.353","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.353","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.353","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.362","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.362","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.364","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.365","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:19:37.456","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.662","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.666","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.667","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.667","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.667","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.680","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.681","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.682","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:22:34.683","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:04.664","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.801","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.804","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.804","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.804","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.804","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.817","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.817","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.819","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:05.819","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:23:35.815","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.804","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.806","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.806","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.806","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.807","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.819","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.819","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.821","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:04.821","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:24:34.821","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.976","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.978","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.979","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.979","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.979","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.991","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.992","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.993","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:15.994","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:25:45.992","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.695","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.698","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.699","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.699","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.700","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.719","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.719","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.721","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:26:43.722","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:13.721","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.964","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.966","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.966","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.967","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.967","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.982","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.982","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.984","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:27:48.984","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:28:18.985","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.048","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.050","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.051","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.051","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.051","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.064","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.064","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.066","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:28.066","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:29:58.068","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.486","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.487","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.488","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.488","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.488","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.499","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.499","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.501","level":"info","message":"Server running in development mode on port 5001","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:00.501","level":"info","message":"API Documentation: http://localhost:5001/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:45:30.503","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.429","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.436","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.437","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.437","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.438","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.459","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.459","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.461","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:23.462","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:46:53.462","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.642","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.644","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.644","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.645","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.645","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.656","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.656","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.658","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:19.658","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.430","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.431","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.432","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.432","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.432","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.443","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.444","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.445","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:33.445","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.405","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.408","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.409","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.409","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.409","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.423","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.423","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.426","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:47:42.426","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.620","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.626","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.626","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.626","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.627","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.640","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.640","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.641","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:00.641","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.843","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.846","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.846","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.846","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.847","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.859","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.859","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.861","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:10.861","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.573","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.575","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.576","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.576","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.576","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.592","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.592","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.596","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:31.597","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.937","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.939","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.940","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.940","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.940","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.956","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.956","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.958","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:40.958","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.631","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.633","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.633","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.633","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.633","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.649","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.649","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.650","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:48:52.651","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:22.648","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.968","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.971","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.971","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.971","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.972","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.985","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.985","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.986","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:29.987","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.304","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.307","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.308","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.308","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.308","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.322","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.322","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.324","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:47.324","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.867","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.871","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.871","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.872","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.872","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.886","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.886","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.896","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:49:56.896","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.337","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.342","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.342","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.342","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.342","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.358","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.359","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.360","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:06.360","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:50:36.360","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.103","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.105","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.106","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.106","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.106","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.117","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.117","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.119","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:31.119","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.472","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.474","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.474","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.474","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.474","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.487","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.487","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.490","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:55:56.490","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:26.488","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.037","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.039","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.039","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.040","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.040","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.056","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.057","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.059","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:29.060","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:56:59.059","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.728","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.732","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.733","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.733","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.733","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.744","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.744","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.746","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:08.747","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.930","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.932","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.933","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.933","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.933","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.943","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.943","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.945","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:27.945","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:57:57.948","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.742","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.746","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.746","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.746","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.747","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.766","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.766","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.769","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:18.769","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:48.749","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.832","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.834","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.835","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.835","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.835","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.848","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.848","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.850","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:50.850","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.365","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.369","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.370","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.370","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.370","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.382","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.383","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.384","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:58:59.384","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.153","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.155","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.156","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.156","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.156","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.170","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.171","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.172","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:08.172","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.512","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.514","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.515","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.515","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.515","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.529","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.529","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.530","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:18.531","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.405","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.409","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.409","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.409","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.409","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.425","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.425","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.427","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:28.427","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.904","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.907","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.908","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.908","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.908","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.967","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.967","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.969","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 02:59:40.969","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:10.969","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.869","level":"info","message":"╔════════════════════════════════════════════════════════════════╗","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.872","level":"info","message":"║               HEALTHCARE AI PLATFORM - ENTERPRISE             ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.872","level":"info","message":"║       HIPAA-Compliant | FHIR-Compatible | AI-Powered          ║","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.872","level":"info","message":"╚════════════════════════════════════════════════════════════════╝","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.872","level":"info","message":"Connecting to MongoDB Atlas with enterprise configuration...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.884","level":"info","message":"Enterprise security middleware configured successfully","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.884","level":"info","message":"Initializing API routes...","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.886","level":"info","message":"Server running in development mode on port 4000","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:27.886","level":"info","message":"API Documentation: http://localhost:4000/api/docs","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:00:57.886","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}

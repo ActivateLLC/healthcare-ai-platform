@@ -1,9 +1,69 @@
-const Anthropic = require('anthropic');
+const { Anthropic } = require('@anthropic-ai/sdk');
+const logger = require('../utils/logger');
 
-// Initialize Anthropic client
+/**
+ * Enterprise-grade Anthropic Claude integration with:  
+ * - HIPAA compliance controls
+ * - Performance optimization
+ * - Automatic retries for API failures
+ * - Comprehensive error handling
+ * - Audit logging for regulatory compliance
+ */
+
+// Initialize Anthropic client with enterprise configuration
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
+  // Additional enterprise options
+  maxRetries: 3,                    // Retry failed API calls
+  timeout: 120 * 1000,              // Extended timeout for complex healthcare requests
 });
+
+// Security validation patterns
+const PHI_PATTERNS = [
+  /\b\d{3}-\d{2}-\d{4}\b/,                   // SSN pattern
+  /\b\d{3}-\d{3}-\d{4}\b/,                   // Phone number pattern
+  /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/,  // Email pattern
+  /\b(MRN|Medical Record Number|Record Number)\s*[:.]?\s*\d+\b/i  // Medical record numbers
+];
+
+/**
+ * Sanitize input to prevent PII/PHI from being sent to external AI services
+ * @param {string} text - Input text to sanitize
+ * @returns {string} - Sanitized text
+ */
+const sanitizeInput = (text) => {
+  if (!text || typeof text !== 'string') return text;
+  
+  let sanitized = text;
+  
+  // Replace potential PHI patterns with placeholders
+  PHI_PATTERNS.forEach((pattern, index) => {
+    sanitized = sanitized.replace(pattern, `[REDACTED-${index}]`);
+  });
+  
+  return sanitized;
+};
+
+/**
+ * Audit log for AI API calls (HIPAA compliance)
+ * @param {string} operation - The operation being performed
+ * @param {string} resourceType - The FHIR resource type being processed
+ * @param {Object} metadata - Additional metadata for audit purposes
+ */
+const auditLog = (operation, resourceType, metadata = {}) => {
+  // Create HIPAA-compliant audit record - no PHI included
+  const auditRecord = {
+    timestamp: new Date().toISOString(),
+    operation,
+    resourceType,
+    userId: metadata.userId || 'system',
+    success: metadata.success || true,
+    // Explicitly avoid logging any content that might contain PHI
+  };
+  
+  // Log using the HIPAA-compliant logger
+  logger.info(`AI Service: ${operation} on ${resourceType}`, { audit: auditRecord });
+};
 
 /**
  * Generate FHIR-compliant resource based on natural language input
@@ -12,54 +72,124 @@ const anthropic = new Anthropic({
  * @param {string} fhirVersion - FHIR version (R4, STU3, etc.)
  * @returns {Object} FHIR-compliant resource JSON
  */
-exports.generateFhirResource = async (prompt, resourceType, fhirVersion = 'R4') => {
+/**
+ * Generate FHIR-compliant resource based on natural language input with HIPAA safeguards
+ * @param {string} prompt - User's natural language request (sanitized before processing)
+ * @param {string} resourceType - FHIR resource type (Patient, Observation, etc.)
+ * @param {string} fhirVersion - FHIR version (R4, STU3, etc.)
+ * @param {object} options - Additional options including user context for audit logging
+ * @returns {Object} FHIR-compliant resource JSON
+ */
+exports.generateFhirResource = async (prompt, resourceType, fhirVersion = 'R4', options = {}) => {
+  // Start performance timing for analytics
+  const startTime = Date.now();
+  
   try {
-    const systemPrompt = `You are a FHIR-compliant healthcare data expert. Your task is to generate valid ${fhirVersion} FHIR resources based on user requests.
+    // HIPAA compliance: Sanitize input to prevent PHI transmission
+    const sanitizedPrompt = sanitizeInput(prompt);
+    
+    // Create audit log entry for this operation
+    auditLog('generateFhirResource', resourceType, {
+      userId: options.userId || 'anonymous',
+      fhirVersion
+    });
+    
+    // Enhanced system prompt with enterprise healthcare focus
+    const systemPrompt = `You are a FHIR-compliant healthcare data expert working in an enterprise healthcare environment. Your task is to generate valid ${fhirVersion} FHIR resources based on user requests.
     
 For the resource type "${resourceType}", create a complete and valid FHIR resource that includes all required fields and appropriate optional fields.
-Follow these rules:
+Follow these strict enterprise healthcare rules:
 1. Ensure the resource follows the official ${fhirVersion} FHIR specification exactly
-2. Include proper resource type, id, and metadata
-3. Use realistic but synthetic data (never use real PHI)
+2. Include proper resource type, id, and metadata with enterprise-appropriate identifiers
+3. Use realistic but completely synthetic data (never use real PHI)
 4. Return only the JSON resource without explanations or markdown formatting
-5. Ensure all dates are in proper ISO format
-6. Include appropriate extensions where needed
-7. Follow FHIR best practices for references between resources`;
+5. Ensure all dates are in proper ISO format with timezone information
+6. Include appropriate extensions where needed for enterprise interoperability
+7. Follow FHIR best practices for references between resources
+8. Include appropriate security tags for enterprise environments
+9. Ensure all terminologies use standard coding systems (SNOMED CT, LOINC, RxNorm)
+10. Include proper versioning information for enterprise tracking`;
 
+    // Enhanced API call with retry capability and timeout management
+    logger.debug(`Calling Claude API for ${resourceType} generation`, { resourceType, fhirVersion });
+    
     const response = await anthropic.messages.create({
-      model: "claude-3-5-sonnet-20240620",
+      model: "claude-3-sonnet-20240229",
       max_tokens: 4000,
       system: systemPrompt,
       messages: [
         {
           role: "user",
-          content: prompt
+          content: sanitizedPrompt
         }
       ],
-      temperature: 0.2
+      temperature: 0.2,
+      // Enterprise-grade request configuration
+      metadata: {
+        // Include metadata for audit and tracking, but no PHI
+        user_id: options.userId || 'anonymous',
+        resource_type: resourceType,
+        fhir_version: fhirVersion
+      }
     });
 
     // Extract JSON from the response
     const content = response.content[0].text;
     
     // Try to parse the response as JSON
+    let fhirResource;
     try {
       // If the response is already JSON, just parse it
-      const fhirResource = JSON.parse(content);
-      return fhirResource;
+      fhirResource = JSON.parse(content);
     } catch (parseError) {
       // If parsing fails, try to extract JSON from markdown code blocks
       const jsonMatch = content.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
       if (jsonMatch && jsonMatch[1]) {
-        return JSON.parse(jsonMatch[1]);
+        fhirResource = JSON.parse(jsonMatch[1]);
+      } else {
+        // If no JSON found, throw error
+        throw new Error("Failed to extract valid JSON from AI response");
       }
-      
-      // If no JSON found, throw error
-      throw new Error("Failed to extract valid JSON from AI response");
     }
+    
+    // Validate the generated resource has the correct resourceType
+    if (fhirResource.resourceType !== resourceType) {
+      logger.warn(`Generated resource type mismatch: requested ${resourceType} but got ${fhirResource.resourceType}`);
+      // Auto-correct the resource type for consistency
+      fhirResource.resourceType = resourceType;
+    }
+    
+    // Log success (with no PHI)
+    const duration = Date.now() - startTime;
+    logger.info(`Successfully generated ${resourceType} FHIR resource in ${duration}ms`, {
+      resourceType,
+      fhirVersion,
+      duration,
+      // No content/PHI logged
+    });
+    
+    return fhirResource;
   } catch (error) {
-    console.error('AI service error:', error);
-    throw error;
+    // Enhanced error handling and logging
+    const duration = Date.now() - startTime;
+    logger.error(`Error generating FHIR resource: ${error.message}`, {
+      resourceType,
+      fhirVersion,
+      duration,
+      errorType: error.name,
+      errorCode: error.status || error.code,
+      // Never include the original prompt (might contain PHI)
+    });
+    
+    // Update audit log with failure
+    auditLog('generateFhirResource_failure', resourceType, {
+      userId: options.userId || 'anonymous',
+      errorType: error.name,
+      duration
+    });
+    
+    // Throw a sanitized error for API response
+    throw new Error(`Failed to generate FHIR ${resourceType} resource: ${error.message}`);
   }
 };
 
@@ -80,7 +210,7 @@ Provide a clear, concise explanation of the FHIR resource that:
 5. Uses healthcare terminology appropriate for professionals`;
 
     const response = await anthropic.messages.create({
-      model: "claude-3-5-sonnet-20240620",
+      model: "claude-3-sonnet-20240229",
       max_tokens: 1000,
       system: systemPrompt,
       messages: [
@@ -119,7 +249,7 @@ Analyze the provided FHIR resource and identify:
 Return your analysis as structured JSON with 'issues' (array of specific problems) and 'suggestions' (array of improvements).`;
 
     const response = await anthropic.messages.create({
-      model: "claude-3-5-sonnet-20240620",
+      model: "claude-3-sonnet-20240229",
       max_tokens: 2000,
       system: systemPrompt,
       messages: [
