@@ -25,3 +25,7 @@
 {"timestamp":"2025-05-30 02:58:48.749","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
 {"timestamp":"2025-05-30 03:00:10.969","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
 {"timestamp":"2025-05-30 03:00:57.886","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:04:31.565","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:05:29.392","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:06:20.285","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}
+{"timestamp":"2025-05-30 03:06:57.556","level":"error","message":"MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017","metadata":{"service":"healthcare-ai-platform"}}

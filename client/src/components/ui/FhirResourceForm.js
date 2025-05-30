@@ -31,13 +31,42 @@ const FhirResourceForm = ({
     defaultValues: initialData
   });
   
+  // Watch critical fields for dynamic form behavior based on clinical context
+  const watchedStatus = watch('status');
+  const watchedCode = watch('code.coding[0].code');
+  const watchedValue = watch('valueQuantity.value');
+  
   // State for AI generation loading
   const [aiGenerating, setAiGenerating] = useState(false);
   const [aiSuggestion, setAiSuggestion] = useState(null);
   const [naturalLanguagePrompt, setNaturalLanguagePrompt] = useState('');
   
-  // Resource type-specific field definitions
+  // Resource type-specific field definitions with dynamic modifications based on watched values
   const resourceFields = getResourceFields(resourceType);
+  
+  // Dynamic form behavior based on clinical context
+  React.useEffect(() => {
+    // Status-based form modifications
+    if (watchedStatus === 'amended') {
+      // Auto-suggest adding amendment reason for clinical documentation
+      setValue('note[0].text', watchedValue ? 
+        `Amended: Previous value ${watchedValue} updated due to [clinician: add reason]` : 
+        'Amended: [clinician: add amendment reason]');
+    }
+    
+    // Add clinical decision support based on common code patterns
+    if (watchedCode === '8480-6' && watchedValue > 140) { // Systolic BP
+      // Provide clinical decision support for hypertension
+      setValue('interpretation.coding[0].system', 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation');
+      setValue('interpretation.coding[0].code', 'H');
+      setValue('interpretation.coding[0].display', 'High');
+    } else if (watchedCode === '2339-0' && watchedValue < 3.5) { // Glucose
+      // Provide clinical decision support for hypoglycemia
+      setValue('interpretation.coding[0].system', 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation');
+      setValue('interpretation.coding[0].code', 'L');
+      setValue('interpretation.coding[0].display', 'Low');
+    }
+  }, [watchedStatus, watchedCode, watchedValue, setValue]);
   
   // Handle AI assist request
   const handleAiAssist = async () => {

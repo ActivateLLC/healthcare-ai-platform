@@ -212,91 +212,89 @@ const ClinicalDataTable = ({
       
       {/* Pagination */}
       {showPagination && (
-        <div className="flex items-center justify-between px-4 py-3 bg-gray-50 border-t border-gray-200 sm:px-6">
-          <div className="flex-1 flex justify-between sm:hidden">
-            <button
-              onClick={() => previousPage()}
-              disabled={!canPreviousPage}
-              className={`relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md ${
-                !canPreviousPage ? 'bg-gray-100 text-gray-400' : 'bg-white text-gray-700 hover:bg-gray-50'
-              }`}
-            >
-              Previous
-            </button>
-            <button
-              onClick={() => nextPage()}
-              disabled={!canNextPage}
-              className={`ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md ${
-                !canNextPage ? 'bg-gray-100 text-gray-400' : 'bg-white text-gray-700 hover:bg-gray-50'
-              }`}
-            >
-              Next
-            </button>
-          </div>
-          <div className="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
-            <div>
-              <p className="text-sm text-gray-700">
-                Showing <span className="font-medium">{page.length ? state.pageIndex * state.pageSize + 1 : 0}</span> to{' '}
-                <span className="font-medium">
-                  {Math.min((state.pageIndex + 1) * state.pageSize, data.length)}
-                </span>{' '}
-                of <span className="font-medium">{data.length}</span> results
-              </p>
+        <div className="px-4 py-3 bg-gray-50 border-t border-gray-200 sm:px-6">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+            {/* Pagination information */}
+            <div className="text-sm text-gray-700">
+              Showing <span className="font-medium">{page.length ? state.pageIndex * state.pageSize + 1 : 0}</span> to{' '}
+              <span className="font-medium">
+                {Math.min((state.pageIndex + 1) * state.pageSize, data.length)}
+              </span>{' '}
+              of <span className="font-medium">{data.length}</span> results
             </div>
-            <div>
-              <nav className="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
-                <button
-                  onClick={() => gotoPage(0)}
-                  disabled={!canPreviousPage}
-                  className={`relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium ${
-                    !canPreviousPage ? 'text-gray-300' : 'text-gray-500 hover:bg-gray-50'
-                  }`}
-                >
-                  <span className="sr-only">First</span>
-                  <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M15.707 15.707a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 010 1.414zm-6 0a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 1.414L5.414 10l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
-                  </svg>
-                </button>
-                <button
-                  onClick={() => previousPage()}
-                  disabled={!canPreviousPage}
-                  className={`relative inline-flex items-center px-2 py-2 border border-gray-300 bg-white text-sm font-medium ${
-                    !canPreviousPage ? 'text-gray-300' : 'text-gray-500 hover:bg-gray-50'
-                  }`}
-                >
-                  <span className="sr-only">Previous</span>
-                  <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </button>
-                
-                {/* Page numbers would go here in a production implementation */}
-                
-                <button
-                  onClick={() => nextPage()}
-                  disabled={!canNextPage}
-                  className={`relative inline-flex items-center px-2 py-2 border border-gray-300 bg-white text-sm font-medium ${
-                    !canNextPage ? 'text-gray-300' : 'text-gray-500 hover:bg-gray-50'
-                  }`}
-                >
-                  <span className="sr-only">Next</span>
-                  <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                  </svg>
-                </button>
-                <button
-                  onClick={() => gotoPage(pageCount - 1)}
-                  disabled={!canNextPage}
-                  className={`relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium ${
-                    !canNextPage ? 'text-gray-300' : 'text-gray-500 hover:bg-gray-50'
-                  }`}
-                >
-                  <span className="sr-only">Last</span>
-                  <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 6.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0zm5-7a1 1 0 000 1.414L13.586 10l-4.293 4.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414l-5-5a1 1 0 00-1.414 0z" clipRule="evenodd" />
-                  </svg>
-                </button>
-              </nav>
+              
+            {/* Page size selector */}
+            <div className="flex items-center space-x-2">
+              <label htmlFor="pageSize" className="text-sm text-gray-600">Rows per page:</label>
+              <select
+                id="pageSize"
+                value={state.pageSize}
+                onChange={e => setPageSize(Number(e.target.value))}
+                className="rounded-md border-gray-300 py-1 pl-2 pr-8 text-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                aria-label="Rows per page"
+              >
+                {[5, 10, 20, 50, 100].map(size => (
+                  <option key={size} value={size}>
+                    {size}
+                  </option>
+                ))}
+              </select>
+            </div>
+            
+            {/* Pagination controls */}
+            <div className="flex justify-end space-x-2">
+              <button
+                onClick={() => gotoPage(0)}
+                disabled={!canPreviousPage}
+                className={`relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium ${
+                  !canPreviousPage ? 'text-gray-300' : 'text-gray-500 hover:bg-gray-50'
+                }`}
+                aria-label="First page"
+              >
+                <span className="sr-only">First</span>
+                <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M15.707 15.707a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 010 1.414zm-6 0a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 1.414L5.414 10l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
+                </svg>
+              </button>
+              <button
+                onClick={() => previousPage()}
+                disabled={!canPreviousPage}
+                className={`relative inline-flex items-center px-2 py-2 border border-gray-300 bg-white text-sm font-medium ${
+                  !canPreviousPage ? 'text-gray-300' : 'text-gray-500 hover:bg-gray-50'
+                }`}
+                aria-label="Previous page"
+              >
+                <span className="sr-only">Previous</span>
+                <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+              </button>
+              <button
+                onClick={() => nextPage()}
+                disabled={!canNextPage}
+                className={`relative inline-flex items-center px-2 py-2 border border-gray-300 bg-white text-sm font-medium ${
+                  !canNextPage ? 'text-gray-300' : 'text-gray-500 hover:bg-gray-50'
+                }`}
+                aria-label="Next page"
+              >
+                <span className="sr-only">Next</span>
+                <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                </svg>
+              </button>
+              <button
+                onClick={() => gotoPage(pageCount - 1)}
+                disabled={!canNextPage}
+                className={`relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium ${
+                  !canNextPage ? 'text-gray-300' : 'text-gray-500 hover:bg-gray-50'
+                }`}
+                aria-label="Last page"
+              >
+                <span className="sr-only">Last</span>
+                <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 6.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0zm5-7a1 1 0 000 1.414L13.586 10l-4.293 4.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414l-5-5a1 1 0 00-1.414 0z" clipRule="evenodd" />
+                </svg>
+              </button>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Disclosure } from '@headlessui/react';
@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const Navbar = () => {
   const { isAuthenticated, user, logout } = useAuth();
-  const [isOpen, setIsOpen] = useState(false);
+  // Using Headless UI's Disclosure for menu state management
 
   const navigation = [
     { name: 'Dashboard', href: '/', current: true },
